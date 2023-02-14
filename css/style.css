@@ -19,29 +19,23 @@
     vertical-align: middle;
 }
 
+/* contenitore bottoni-testo*/
 .contenitore {
     max-width: 1400px;
     margin: auto;
 }
 
-/* contenitore sfondo */
-.contenitore-bottone{
+.contenitore-grande{
     background-color: rgb(236, 236, 243);
     height:100vh;
     padding-top: 30px;
 }
 
-.contenitoresfondo-2{
+.contenitore-bottone{
     background-color:white;
     border-radius: 10px;
     padding: 20px;
     margin-bottom:3px;  
-}
-
-.contenitore-testo{
-    background-color:white;
-    border-radius: 10px;
-    height: 850px;
 }
 
 /* button */
@@ -54,9 +48,20 @@
 .bottone1{
     background-color: rgb(25, 153, 232);
     border: none;
+    color: white;
+    
+
 }
 
 .bottone2{
     background-color: rgb(255, 255, 255);
     opacity: 0.3;
 }
+
+/* contenitore testo */
+.contenitore-testo{
+    background-color:white;
+    border-radius: 10px;
+    height: 850px;
+}
+
