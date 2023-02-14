@@ -49,8 +49,6 @@
     background-color: rgb(25, 153, 232);
     border: none;
     color: white;
-    
-
 }
 
 .bottone2{
@@ -67,36 +65,60 @@
 }
 
 /* inizio testo */
-
+/* caselle colorate */
 .casella{
-    background-color:rgb(25, 153, 232) ;
     border-radius: 18px;
     padding: 8px;
     font-size: 12px;
 }
 
+.blu{
+    background-color:rgb(25, 153, 232) ;
+}
 
+.viola{
+    background-color:rgb(91, 25, 232) ;
+}
+
+.verde{
+    background-color:rgb(36, 175, 43) ;
+}
+
+.arancione{
+    background-color:rgb(232, 138, 36) ;
+}
 
 h3{
     font-size:35px; 
+    margin:0 0 10px 5px;
 }
 
 p{
     font-size:20px;
-    margin: 10px 10px;
+    margin: 20px 10px;
 }
 
 p::before{
-    font-size: 18px;
-    content:"\2713";
-    border: 2px solid green;
-    color: green;
     font-weight: bold;
     border-radius: 100%;
     height: 25px;
     width: 25px;
     text-align: center;
     display: inline-block;
+}
+
+p.corretto::before {
+    content:"\2713";
+    font-size: 18px;
+    border: 2px solid green;
+    color: green;
+}
+
+p.errore::before{
+    content: "\00D7";
+    font-size: 22px;
+    border: 2px solid red;
+    color: red;
 }
 
 h3::before{
@@ -106,6 +128,8 @@ h3::before{
 }
 
 /* seconda parte di testo */
-.contenitore-Today{
+.contenitore-titoli{
+    margin-bottom: 40px;
 
 }
+
